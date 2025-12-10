@@ -11,7 +11,7 @@ from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 import nltk
 
-client = OpenAI(api_key=api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 
 st.markdown("""
@@ -514,3 +514,4 @@ st.markdown("""
         Dados provenientes do repositório <strong>IBICT - BDTD</strong><br>
     </div>
 """, unsafe_allow_html=True)
+
