@@ -1,0 +1,7 @@
+openai >= 1.0.0
+pysolr
+streamlit
+PyMuPDF
+nltk
+rank_bm25
+numpy
