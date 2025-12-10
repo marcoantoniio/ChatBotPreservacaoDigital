@@ -96,8 +96,8 @@ num_docs_formatado = f"{num_docs:,.2f}".replace(",", "X").replace(".", ",").repl
 col1, col2 = st.columns([1, 8])
 with col1:
     try:
-        st.image(r"C:\Users\marcocunha\Documents\Projetos\IESB.jpg", width=200)
-        st.image(r"C:\Users\marcocunha\Documents\Projetos\IBICT.jpg", width=200)
+        st.image(r"IESB.jpg", width=200)
+        st.image(r"IBICT.jpg", width=200)
     except Exception:
         st.caption("Logo IESB")
         st.caption("Logo IBICT")
@@ -514,4 +514,5 @@ st.markdown("""
         Dados provenientes do repositório <strong>IBICT - BDTD</strong><br>
     </div>
 """, unsafe_allow_html=True)
+
 
