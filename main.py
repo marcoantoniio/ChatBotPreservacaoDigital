@@ -105,7 +105,7 @@ with col1:
 
 with col2:
     st.markdown(f"""
-        <div class="title">Protótipo - IA</div>
+        <div class="title">Protótipo IA - Dissertação de mestrado </div>
         <div class="subtitle">
             As informações são extraídas do banco de dados BDTD do IBICT, que atualmente possui <b>{num_docs_formatado}</b> documentos. 
             Esses dados podem ser complementados com informações geradas por uma inteligência artificial, com o objetivo de enriquecer e contextualizar os resultados apresentados. 
@@ -514,6 +514,7 @@ st.markdown("""
         Dados provenientes do repositório <strong>IBICT - BDTD</strong><br>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
