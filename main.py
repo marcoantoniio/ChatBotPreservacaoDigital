@@ -56,6 +56,7 @@ with st.sidebar:
     )
     st.markdown("---")
     st.markdown("*Você pode alternar o modo de busca a qualquer momento.*")
+    st.image(r"BDTD.jpg", width=200)
 
 
 SOLR_URL = "https://solr-bdtd.ibict.br/solr/biblio2"
@@ -514,6 +515,7 @@ st.markdown("""
         Dados provenientes do repositório <strong>IBICT - BDTD</strong><br>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
